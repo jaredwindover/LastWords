@@ -1,0 +1,19 @@
+{
+  "name": "lastwords",
+  "version": "1.0.0",
+  "description": "service for creating dead-man-switched messages",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaredwindover/LastWords.git"
+  },
+  "author": "Jared Windover",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaredwindover/LastWords/issues"
+  },
+  "homepage": "https://github.com/jaredwindover/LastWords#readme"
+}
