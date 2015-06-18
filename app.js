@@ -2,7 +2,7 @@ var express = require('express');
 
 var app = express();
 
-var port = provess.env.PORT || 3000;
+var port = process.env.PORT || 3000;
 
 var router = express.Router();
 
