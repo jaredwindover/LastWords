@@ -1,19 +1,10 @@
 var express  = require('express');
 var mongoose = require('mongoose');
-
-mongoose.connect(process.env.MONGODB);
-
-var app = express();
+var app      = require('./index');
 
 var port = process.env.PORT || 3000;
 
-var router = express.Router();
-
-router.get('/', function(req, res){
-    res.json({message:'Initial message'});
-});
-
-app.use('/api', router);
+mongoose.connect(process.env.MONGODB);
 
 app.listen(port);
 
